@@ -1350,6 +1350,9 @@
                                                 <real key="value" value="25"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="forgotPasswordButtonTapped:" destination="F7V-xv-5Jk" eventType="touchUpInside" id="dDO-bP-HvT"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
