@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        customizeUIStyle()
+        FirebaseApp.configure()
+        
         return true
     }
 
@@ -44,3 +48,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+
+extension AppDelegate {
+    func customizeUIStyle() {
+        
+        // Customize Navigation bar items
+        UIBarButtonItem.appearance(whenContainedInInstancesOf: [UINavigationBar.self]).setTitleTextAttributes([NSAttributedStringKey.font: UIFont(name: "Avenir", size: 16)!, NSAttributedStringKey.foregroundColor: UIColor.white], for: UIControlState.normal)
+    }
+}
