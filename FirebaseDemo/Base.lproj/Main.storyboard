@@ -517,6 +517,9 @@
                                                 <real key="value" value="25"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="registerAccount:" destination="sSG-Xu-loP" eventType="touchUpInside" id="mLW-oa-brn"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -564,7 +567,7 @@
             <objects>
                 <tableViewController id="LqV-vF-olZ" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="jUs-eG-ofQ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="2058"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1994"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>

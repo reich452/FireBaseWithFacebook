@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01806995209FB4D700BE5550 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 01806994209FB4D700BE5550 /* GoogleService-Info (1).plist */; };
+		01806995209FB4D700BE5550 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01806994209FB4D700BE5550 /* GoogleService-Info.plist */; };
 		C3F605E0F66A51AACF217697 /* Pods_FirebaseDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C742DFFFC19A11F025BFA1 /* Pods_FirebaseDemo.framework */; };
 		F4B9D7661E1FA62600F7CAD8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B9D7651E1FA62600F7CAD8 /* ProfileViewController.swift */; };
 		F4D2C3501E1E169F00BD0580 /* UITextField+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2C34F1E1E169F00BD0580 /* UITextField+Placeholder.swift */; };
@@ -34,7 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01806994209FB4D700BE5550 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		01806994209FB4D700BE5550 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5EB07EAA35529B4F6A2E5DA4 /* Pods-FirebaseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseDemo/Pods-FirebaseDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B0F89A1987FB319929959CF1 /* Pods-FirebaseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseDemo/Pods-FirebaseDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C8C742DFFFC19A11F025BFA1 /* Pods_FirebaseDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,7 +122,7 @@
 				F4E9C9011E013DBC00FD9D7C /* Assets.xcassets */,
 				F4E9C9031E013DBC00FD9D7C /* LaunchScreen.storyboard */,
 				F4E9C9061E013DBC00FD9D7C /* Info.plist */,
-				01806994209FB4D700BE5550 /* GoogleService-Info (1).plist */,
+				01806994209FB4D700BE5550 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseDemo;
 			sourceTree = "<group>";
@@ -251,7 +251,7 @@
 				F4E9C9271E0153E000FD9D7C /* Rubik-Regular.ttf in Resources */,
 				F4E9C9251E0153E000FD9D7C /* Rubik-Medium.ttf in Resources */,
 				F4E9C9001E013DBC00FD9D7C /* Main.storyboard in Resources */,
-				01806995209FB4D700BE5550 /* GoogleService-Info (1).plist in Resources */,
+				01806995209FB4D700BE5550 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
